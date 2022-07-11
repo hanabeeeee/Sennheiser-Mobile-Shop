@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/detail.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>제품 상세 보기</title>
+</head>
+<body id="detail">
+    <header id="main-header">
+        <h1><a href="./"></a><img src="./images/icon/logo.svg" alt="젠하이저"></h1>
+         <nav id="icon-menu">
+           <a href="#"><i class="bi bi-bag"></i></a>
+           <a href="#"><i class="bi bi-search"></i></a>
+           <button id="toggle-btn"><i class="bi bi-list"></i></button>
+         </nav>
+         <nav id="gnb">
+           <ul>
+               <li><a href="#">젠하이저 소개</a></li>
+               <li><a href="#">신상품</a></li>
+               <li><a href="#">헤드폰</a></li>
+               <li><a href="#">고객 지원</a></li>
+               <li><a href="#">헤드폰</a></li>
+               <li><a href="#">고객 지원</a></li>
+               <li><a href="#">FAQs</a></li>
+               <li><a href="#">주문 조회</a></li>
+           </ul>
+           <button id="btn-close"><i class="bi bi-x"></i></button>
+         </nav>
+       </header>
+
+       <main>
+        <div class="container02">
+            <h1>MOMEN TUM True Wireless 3</h1>
+            <p class="price"><span>W</span>220,000</p>
+        </div><!-- container -->
+        <figure>
+            <img class="detail-img" src="./images/detail-img.jpeg" alt="제품사진">
+        </figure>
+        <div class="container">
+            <p>새로운 이어버드 시리즈의 선도적인 오디오 기술과 혁신으로 언제 어디서나 최고의 청취 경험을 즐겨보세요. 각각의 새로운 쌍은 모든 가격대와 기능 요구 사항을 충족하기 위해 신중하게 개발되었습니다.</p>
+            <div class="buy-btn-group">
+                <a onclick="alert('지금은 구매하실 수 없습니다.')" href="#" class="btn-large btn-outline">장바구니</a>
+                <a onclick="alert('지금은 구매하실 수 없습니다.')" href="#" class="btn-large">구매하기</a>
+            </div>
+        </div>
+       </main>
+
+       <footer id="main-footer">
+        <ul class="sns">
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"></a><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#"></a><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"></a><i class="bi bi-youtube"></i></a></li>
+        </ul>
+        <nav class="footer-menu">
+            <a href="#">이용 약관</a><span>|</span>
+            <a href="#" class="info"><strong>개인정보취급방침</strong></a>
+            <p class="copy">© 2022 Sonova Consumer Hearing GmbH</p>
+     </nav>
+       </footer>
+</body>
+</html>
