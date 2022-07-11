@@ -1,7 +1,7 @@
 // 제품 데이터 가져오기
 function getData() {
     // 여기에 여러분 깃허브 JSON 파일 경로(서버 데이터 주소)
-    const DataURL = 'https://raw.githubusercontent.com/csslick/sennheiser-mobile/main/data.json';
+    const DataURL = 'https://raw.githubusercontent.com/hanabeeeee/Sennheiser-Mobile-Shop/main/data.json';
     fetch(DataURL)
     .then(function(res){
       return res.json(); // JSON 객체 변환
